@@ -2,7 +2,7 @@
   "name": "info-news",
   "private": true,
   "lint-staged": {
-    "*.{js, ts, tsx}": "./node_modules/.bin/eslint --fix"
+    "*.{js,ts,tsx}": "eslint --fix"
   },
   "scripts": {
     "start:dev": "next dev",
@@ -27,6 +27,7 @@
     "eslint-config-next": "12.0.7",
     "eslint-plugin-import": "^2.22.1",
     "husky": "^7.0.4",
+    "lint-staged": "^12.1.4",
     "typescript": "4.5.4"
   }
 }
