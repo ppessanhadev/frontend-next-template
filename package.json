@@ -2,7 +2,7 @@
   "name": "info-news",
   "private": true,
   "lint-staged": {
-    "*.{js, ts, tsx}": ["./node_modules/.bin/eslint --fix", "git add"]
+    "*.{js, ts, tsx}": "./node_modules/.bin/eslint --fix"
   },
   "scripts": {
     "start:dev": "next dev",
