@@ -8,7 +8,6 @@
     "start:dev": "next dev",
     "start:prod": "next start",
     "build": "next build",
-    "lint": "next lint",
     "prepare": "husky install"
   },
   "dependencies": {
