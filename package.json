@@ -1,5 +1,5 @@
 {
-  "name": "info-news",
+  "name": "frontend-next-template",
   "private": true,
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --fix"
